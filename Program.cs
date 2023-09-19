@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Contexto>
-(options => options.UseSqlServer("Data Source=DESKTOP-J4KHRVC\\PROJETOSQL;Initial Catalog=ProjetoClientes;Integrated Security=False;  Timeout=15;Encrypt=False;TrustServerCertificate=False"));
+(options => options.UseSqlServer("Data Source=DESKTOP-J4KHRVC\\PROJETOSQL;Initial Catalog=ProjetoClientes;Integrated Security=False; User ID=ProjetoDesafio; Password=1234; Timeout=15;Encrypt=False;TrustServerCertificate=False"));
 
 var app = builder.Build();
 
