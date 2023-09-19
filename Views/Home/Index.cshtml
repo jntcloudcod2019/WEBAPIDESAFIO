@@ -1,8 +1,40 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Desafio de programação Web API";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Desafio</h1>
+</div>
+
+<div>
+    <h2>Cenário</h2>
+    <p>A empresa está expandindo seus negócios e uma das missões do time de tecnologia é criar uma funcionalidade de cadastro de Clientes.</p>
+    <p>O Front deve ser desenvolvido em Asp.net com MVC, Razor, Javascript e Html (se necessário).</p>
+    <p>O Back deve ser uma API REST em C#.</p>
+
+    <h3>Requisitos</h3>
+    <ul>
+        <li>Deve ser possível criar, atualizar, visualizar e remover Cliente.</li>
+        <li>
+            O cadastro dos clientes deve conter apenas os seguintes campos:
+            <ul>
+                <li>Nome</li>
+                <li>E-mail</li>
+                <li>Logotipo</li>
+                <li>Logradouro</li>
+            </ul>
+        </li>
+        <li>Um cliente pode conter vários logradouros.</li>
+        <li>Um cliente não pode se registrar duas vezes com o mesmo endereço de e-mail.</li>
+        <li>Deve ser possível criar, atualizar, visualizar e remover os logradouros.</li>
+        <li>O acesso à API deve ser aberto ao mundo, porém deve possuir autenticação e autorização.</li>
+        <li>A API terá um grande volume de requisições, então tenha em mente que a preocupação com performance é algo que temos constantemente preocupação.</li>
+    </ul>
+
+    <h3>Observações Gerais</h3>
+    <ul>
+        <li>Utilize a linguagem C# em qualquer no framework .Net Core 6.0 ou superior.</li>
+        <li>Utilize o banco de dados SQL Server 2016 ou superior.</li>
+        <li>Mesclar a utilização de um ORM a sua escolha para consultas e para outras operações utilizar Stored Procedures.</li>
+    </ul>
 </div>

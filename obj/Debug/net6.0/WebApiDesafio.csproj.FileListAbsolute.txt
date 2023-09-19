@@ -265,3 +265,15 @@ C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\obj\
 C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\obj\Debug\net6.0\WebApiDesafio.pdb
 C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\obj\Debug\net6.0\WebApiDesafio.genruntimeconfig.cache
 C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\obj\Debug\net6.0\ref\WebApiDesafio.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\bin\Debug\net6.0\Serilog.Sinks.File.dll

@@ -9,11 +9,11 @@ using WebApiDesafio.Models;
 
 namespace WebApiDesafio.Controllers
 {
-    public class LogradouroesController : Controller
+    public class LogradourosController : Controller
     {
         private readonly Contexto _context;
 
-        public LogradouroesController(Contexto context)
+        public LogradourosController(Contexto context)
         {
             _context = context;
         }

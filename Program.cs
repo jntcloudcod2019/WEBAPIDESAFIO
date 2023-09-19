@@ -1,7 +1,19 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using WebApiDesafio.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+  .MinimumLevel.Information()
+.WriteTo.File("Log/log.txt", rollingInterval: RollingInterval.Minute) 
+.CreateLogger();
+
+builder.Host.UseSerilog();
+
+builder.Logging.AddSerilog();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

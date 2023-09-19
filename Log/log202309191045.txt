@@ -1,0 +1,15 @@
+2023-09-19 10:45:02.354 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/Clientes - -
+2023-09-19 10:45:02.432 -03:00 [INF] Executing endpoint 'WebApiDesafio.Controllers.ClientesController.Index (WebApiDesafio)'
+2023-09-19 10:45:02.489 -03:00 [INF] Route matched with {action = "Index", controller = "Clientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApiDesafio.Controllers.ClientesController (WebApiDesafio).
+2023-09-19 10:45:08.242 -03:00 [INF] Executed DbCommand (475ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ClienteID], [c].[Email ], [c].[Logotipo], [c].[Nome]
+FROM [Clientes] AS [c]
+2023-09-19 10:45:09.043 -03:00 [INF] Executing ViewResult, running view Index.
+2023-09-19 10:45:09.136 -03:00 [INF] Executed ViewResult - view Index executed in 100.1583ms.
+2023-09-19 10:45:09.137 -03:00 [INF] Executed action WebApiDesafio.Controllers.ClientesController.Index (WebApiDesafio) in 6647.4676ms
+2023-09-19 10:45:09.137 -03:00 [INF] Executed endpoint 'WebApiDesafio.Controllers.ClientesController.Index (WebApiDesafio)'
+2023-09-19 10:45:10.831 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/Clientes - - - 200 - text/html;+charset=utf-8 8476.3165ms
+2023-09-19 10:45:10.914 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - -
+2023-09-19 10:45:10.914 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.5581ms
+2023-09-19 10:45:11.065 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - -
+2023-09-19 10:45:11.242 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.1327ms

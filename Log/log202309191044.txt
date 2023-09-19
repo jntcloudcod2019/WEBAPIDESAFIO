@@ -1,0 +1,18 @@
+2023-09-19 10:44:48.889 -03:00 [INF] User profile is available. Using 'C:\Users\Jonathan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-19 10:44:49.599 -03:00 [INF] Now listening on: https://localhost:7007
+2023-09-19 10:44:49.600 -03:00 [INF] Now listening on: http://localhost:5045
+2023-09-19 10:44:49.610 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-19 10:44:49.611 -03:00 [INF] Hosting environment: Development
+2023-09-19 10:44:49.612 -03:00 [INF] Content root path: C:\Users\Jonathan\Desktop\Estudos\Projeto\Final\WebApiDesafio\WebApiDesafio\
+2023-09-19 10:44:51.543 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/ - -
+2023-09-19 10:44:51.828 -03:00 [INF] Executing endpoint 'WebApiDesafio.Controllers.HomeController.Index (WebApiDesafio)'
+2023-09-19 10:44:51.941 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApiDesafio.Controllers.HomeController (WebApiDesafio).
+2023-09-19 10:44:52.003 -03:00 [INF] Executing ViewResult, running view Index.
+2023-09-19 10:44:52.482 -03:00 [INF] Executed ViewResult - view Index executed in 496.754ms.
+2023-09-19 10:44:52.510 -03:00 [INF] Executed action WebApiDesafio.Controllers.HomeController.Index (WebApiDesafio) in 565.3293ms
+2023-09-19 10:44:52.511 -03:00 [INF] Executed endpoint 'WebApiDesafio.Controllers.HomeController.Index (WebApiDesafio)'
+2023-09-19 10:44:52.623 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/ - - - 200 - text/html;+charset=utf-8 1099.5873ms
+2023-09-19 10:44:52.650 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - -
+2023-09-19 10:44:52.660 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 10.3508ms
+2023-09-19 10:44:52.720 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - -
+2023-09-19 10:44:52.819 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.1642ms
